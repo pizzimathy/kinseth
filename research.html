@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Load jQuery, just for dynamically loading the header. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Load local styles and scripts. -->
+    <link href="styles/index.css" type="text/css" rel="stylesheet"/>
+    <script src="header.js"></script>
+
+    <!-- Load MathJax. -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hparent"></div>
+
+        <!-- content unique to this page. -->
+        <div id="content">
+            <h1 class="title">Publications</h1>
+            <div id="publications" class="column">
+
+                <!-- conditions for matchability in groups and field extensions -->
+                <div class="item publication">
+                    <div class="item publication-image">
+                        <img src="https://www.tandfonline.com/action/showCoverImage?journalCode=glma20"/>
+                    </div>
+                    <div class="item publication-information">
+                        <div class="item publication-title">
+                            Conditions for matchability in groups and field extensions
+                        </div>
+                        <div class="item publication-background">
+                            with Dr. Mohsen Aliabadi, Christopher Kunz, Haris Serdarevic,
+                            and Cole Willis. Funded by Iowa State University LAS
+                            Dean's High Impact Award for Undergraduate Research.
+                        </div>
+                        <div class="item publication-link">
+                            <a target=_blank href="https://doi.org/10.1080/03081087.2022.2057903">doi.org/10.1080/03081087.2022.2057903</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- meta-analysis -->
+                <div class="item publication">
+                    <div class="item publication-image">
+                        <img src="https://i.stack.imgur.com/otUg0.jpg?s=256&g=1"/>
+                    </div>
+                    <div class="item publication-information">
+                        <div class="item publication-title">
+                            A meta-analysis of Boolean network models reveals
+                            design principles of gene regulatory networks
+                        </div>
+                        <div class="item publication-background">
+                            with Dr. Claus Kadelka, Taras-Michael Butrie, Evan Hilton,
+                            and Haris Serdarevic.
+                        </div>
+                        <div class="item publication-link">
+                            <a target=_blank href="https://arxiv.org/abs/2009.01216">
+                                arxiv.org/abs/2009.01216
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 style="margin-top: 2.5em" class="title">News</h1>
+            <div id="news" class="column">
+                <div class="item news-link">
+                    <a target=_blank href="https://news.las.iastate.edu/2021/08/09/summer-insights-from-las-undergraduate-researchers/">
+                        Summer insights from LAS undergraduate researchers
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

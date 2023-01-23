@@ -1,0 +1,35 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2vw;
+}
+
+header > .row {
+    flex-grow: 1;
+}
+
+header > .row.item {
+    align-items: center;
+}
+
+#nav > a, a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#nav > div:hover {
+    text-decoration: underline;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    gap: 2em;
+}
+
+#nameplate {
+    justify-content: left;
+}
+

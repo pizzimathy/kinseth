@@ -1,0 +1,14 @@
+
+
+#contact-me {
+    font-size: 1.25em;
+}
+
+#description {
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}

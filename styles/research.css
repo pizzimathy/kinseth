@@ -1,0 +1,44 @@
+
+#publications {
+    display: flex;
+    gap: 5em;
+}
+
+.publication {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.publication-information {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 80%;
+}
+
+.publication-title {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.publication-background {
+    font-size: 1.25em
+}
+
+.publication-image {
+    max-width: 15%;
+}
+
+.publication-link {
+    font-style: italic;
+}
+
+.news-link {
+    flex-grow: 1;
+    font-size: 2em;
+    font-style: italic;
+}
+
+

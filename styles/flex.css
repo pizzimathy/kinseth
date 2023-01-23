@@ -1,0 +1,16 @@
+
+.item {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: left;
+    gap: 5em;
+}
