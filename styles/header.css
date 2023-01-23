@@ -13,7 +13,7 @@ header > .row.item {
     align-items: center;
 }
 
-#nav > a, a:link, a:visited {
+.nav-link, .nav-link:link, .nav-link:hover, .nav-link:visited {
     color: white;
     text-decoration: none;
 }
